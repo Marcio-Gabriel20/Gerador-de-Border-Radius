@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Gerador de Border-Radius</title>
+</head>
+<body>
+    <h1>Gerador de Border-Radius</h1>
+    <div class="mborda"></div>
+    <div class="valores">
+        <div class="direc">
+            <p>Borda: Esquerda - Cima</p><input type="number" id="top-left">
+        </div>
+        <div class="direc">
+            <p>Borda: Direita - Cima</p><input type="number" id="top-right">
+        </div>
+        <div class="direc">
+            <p>Borda: Esquerda - Baixo</p><input type="number" id="bottom-left">
+        </div>
+        <div class="direc">
+            <p>Borda: Direita - Baixo</p><input type="number" id="bottom-right">
+        </div>
+    </div>
+    <button class="btn aplicar" onclick="gerar()">Aplicar</button>
+    <button class="btn reset" onclick="zerar()">Limpar</button>
+</body>
+</html>
